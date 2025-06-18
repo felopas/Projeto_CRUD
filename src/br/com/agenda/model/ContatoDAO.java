@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import br.com.agenda.factory.ConnectionFactory;
+import br.com.agenda.model.Contato;
 
 public class ContatoDAO {
     public void save(Contato contato) {
