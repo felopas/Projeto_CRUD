@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class ConnectionFactory {
     private static final String URL = "jdbc:postgresql://localhost:5432/agenda_db";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "ALOL";
+    private static final String PASSWORD = "123";
 
     public static Connection createConnection() {
         try {
